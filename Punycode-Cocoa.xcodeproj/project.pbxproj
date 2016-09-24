@@ -10,7 +10,7 @@
 		210315C21D9608F4009C7CCB /* PunycodeCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210315B81D9608F4009C7CCB /* PunycodeCocoa.framework */; };
 		210315C71D9608F4009C7CCB /* Punycode_CocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210315C61D9608F4009C7CCB /* Punycode_CocoaTests.m */; };
 		210315C91D9608F4009C7CCB /* PunycodeCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 210315BB1D9608F4009C7CCB /* PunycodeCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2143E2AE1D96092400CCC453 /* NSStringPunycodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2AC1D96092400CCC453 /* NSStringPunycodeAdditions.h */; };
+		2143E2AE1D96092400CCC453 /* NSStringPunycodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2AC1D96092400CCC453 /* NSStringPunycodeAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2143E2AF1D96092400CCC453 /* NSStringPunycodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2AD1D96092400CCC453 /* NSStringPunycodeAdditions.m */; };
 /* End PBXBuildFile section */
 
