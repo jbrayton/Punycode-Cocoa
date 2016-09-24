@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		210315C21D9608F4009C7CCB /* PunycodeCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210315B81D9608F4009C7CCB /* PunycodeCocoa.framework */; };
 		210315C71D9608F4009C7CCB /* Punycode_CocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 210315C61D9608F4009C7CCB /* Punycode_CocoaTests.m */; };
-		210315C91D9608F4009C7CCB /* Punycode-Cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 210315BB1D9608F4009C7CCB /* Punycode-Cocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210315C91D9608F4009C7CCB /* PunycodeCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 210315BB1D9608F4009C7CCB /* PunycodeCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2143E2AE1D96092400CCC453 /* NSStringPunycodeAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2143E2AC1D96092400CCC453 /* NSStringPunycodeAdditions.h */; };
 		2143E2AF1D96092400CCC453 /* NSStringPunycodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2143E2AD1D96092400CCC453 /* NSStringPunycodeAdditions.m */; };
 /* End PBXBuildFile section */
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		210315B81D9608F4009C7CCB /* PunycodeCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PunycodeCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		210315BB1D9608F4009C7CCB /* Punycode-Cocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Punycode-Cocoa.h"; sourceTree = "<group>"; };
+		210315BB1D9608F4009C7CCB /* PunycodeCocoa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PunycodeCocoa.h; sourceTree = "<group>"; };
 		210315BC1D9608F4009C7CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		210315C11D9608F4009C7CCB /* Punycode-CocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Punycode-CocoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		210315C61D9608F4009C7CCB /* Punycode_CocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Punycode_CocoaTests.m; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		210315BA1D9608F4009C7CCB /* Punycode-Cocoa */ = {
 			isa = PBXGroup;
 			children = (
-				210315BB1D9608F4009C7CCB /* Punycode-Cocoa.h */,
+				210315BB1D9608F4009C7CCB /* PunycodeCocoa.h */,
 				2143E2AC1D96092400CCC453 /* NSStringPunycodeAdditions.h */,
 				2143E2AD1D96092400CCC453 /* NSStringPunycodeAdditions.m */,
 				210315BC1D9608F4009C7CCB /* Info.plist */,
@@ -99,7 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				210315C91D9608F4009C7CCB /* Punycode-Cocoa.h in Headers */,
+				210315C91D9608F4009C7CCB /* PunycodeCocoa.h in Headers */,
 				2143E2AE1D96092400CCC453 /* NSStringPunycodeAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
